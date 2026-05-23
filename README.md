@@ -2,7 +2,7 @@
 
 This project lets users chat with YouTube videos using AI.
 
-It extracts the transcript from a video, converts it into embeddings using LangChain + FAISS, and answers questions using Groq LLMs.
+It extracts transcripts from YouTube videos, converts them into embeddings using LangChain + FAISS, and answers questions using Groq LLMs.
 
 I built this project to learn:
 - Retrieval-Augmented Generation (RAG)
@@ -15,7 +15,7 @@ I built this project to learn:
 
 - Ask questions from YouTube videos
 - Automatic transcript extraction
-- Manual transcript input if transcript fetch fails
+- Manual transcript input if auto-fetch fails
 - Timestamp-based responses
 - Multiple video support
 - Gradio-based UI
@@ -34,3 +34,8 @@ I built this project to learn:
 ```bash
 pip install -r requirements.txt
 python app.py
+```
+
+## Live Demo
+
+https://gungun2826-youtube-chatbot.hf.space
